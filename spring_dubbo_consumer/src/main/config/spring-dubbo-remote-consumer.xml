@@ -7,6 +7,15 @@ http://www.springframework.org/schema/beans/spring-beans.xsd
 http://code.alibabatech.com/schema/dubbo
 http://code.alibabatech.com/schema/dubbo/dubbo.xsd" default-autowire="byName">
 
+
+
+    <dubbo:application name="consumer"  />
+
+    <!-- 使用multicast广播注册中心暴露发现服务地址 -->
+    <dubbo:registry address="127.0.0.1:2181" />
+
+    <dubbo:protocol name="dubbo" port="20880" />
+
     <dubbo:reference id="demoService" interface="com.service.DemoService"/>
 
 </beans>

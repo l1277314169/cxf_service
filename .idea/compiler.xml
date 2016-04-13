@@ -37,9 +37,6 @@
       <module name="spring_dubbo_comm" target="1.6" />
       <module name="spring_dubbo_consumer" target="1.6" />
       <module name="spring_dubbo_provider" target="1.6" />
-      <module name="springMVC" target="1.6" />
-      <module name="springMVC_cxf_client" target="1.6" />
-      <module name="springMVC_cxf_service" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

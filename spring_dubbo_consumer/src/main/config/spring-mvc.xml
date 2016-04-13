@@ -20,4 +20,5 @@
 
     <!-- 让Spring通过自动扫描来查询和管理Bean -->
     <context:component-scan base-package="com" />
+    <import resource="spring-dubbo-remote-consumer.xml"/>
 </beans>
